@@ -14,8 +14,3 @@
 .workItem__link:focus {
   text-decoration: underline;
 }
-
-hr {
-  background-color: #F7C0AB;
-  margin: 50px 0px;
-}

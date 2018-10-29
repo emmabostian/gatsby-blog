@@ -28,6 +28,7 @@ const WorkPage = () => (
       goal='Provide an easy-to-use solution for developers looking for Linux packages on the IBM Power platform.'
       link='https://www.gotomeeting.com/'
     />
+    <hr />
     <WorkItem
       image={ibmQNetworkImage}
       title='IBM Q Network'
@@ -36,6 +37,7 @@ const WorkPage = () => (
       goal='Provide a responsive and accessible website to inform users about the IBM Quantum Network.'
       link='https://www.research.ibm.com/ibm-q/network/'
     />
+    <hr />
     <WorkItem
       image={lopdpImage}
       title='Open Source Power & Availability Tool'
@@ -44,6 +46,7 @@ const WorkPage = () => (
       goal='Provide an easy-to-use solution for developers looking for Linux packages on the IBM Power platform.'
       link='https://developer.ibm.com/linuxonpower/open-source-pkgs/'
     />
+    <hr />
     <h1 style={{ 
       textTransform: 'uppercase', 
       fontWeight: '100',
@@ -61,6 +64,7 @@ const WorkPage = () => (
       goal='Create a platform to connect mentors and mentees around the world.'
       link='https://codingcoach.io/'
     />
+    <hr />
     <WorkItem
       image={planItImage}
       title='PlanIt'

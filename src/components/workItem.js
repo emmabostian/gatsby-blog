@@ -14,7 +14,6 @@ const WorkItem = ((props) => (
       <p>{props.goal}</p>
       <a className='workItem__link' href={props.link} target='blank'>Check it out</a>
     </div>
-    <hr />
   </section>
 ));
 

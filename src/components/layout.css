@@ -628,3 +628,7 @@ pre tt:after {
   line-height: 1.8;
 }
 
+hr {
+  background-color: #F7C0AB;
+  margin: 50px 0px;
+}
