@@ -1,17 +1,28 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
+
+import BlogSquare from '../components/blogSquare'
 
 const BlogPage = ({data}) => (
   <Layout>
-    <h1>Blog</h1>
+    <h1 style={{ 
+      textTransform: 'uppercase', 
+      fontWeight: '100',
+      marginTop: '50px',
+      fontSize: '25px',
+      letterSpacing: '4px'
+    }}>
+      Blog
+    </h1>
     {data.allMarkdownRemark.edges.map(post => (
-      <div key={post.node.id}>
-        <h3>{post.node.frontmatter.title}</h3>
-        <small>Posted {post.node.frontmatter.date}</small>
-        <br />
-        <Link to={post.node.frontmatter.path}>Read more</Link>
-      </div>
+      <BlogSquare
+        title={post.node.frontmatter.title}
+        date={post.node.frontmatter.date}
+        path={post.node.frontmatter.path}
+        image={post.node.frontmatter.image}
+        key={post.node.id}
+      />
     ))}
   </Layout>
 )
@@ -27,6 +38,7 @@ export const pageQuery = graphql`
             title
             author
             date
+            image
           }
         }
       }

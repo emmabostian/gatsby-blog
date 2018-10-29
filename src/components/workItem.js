@@ -2,17 +2,17 @@ import React from 'react'
 
 import './workItem.css'
 
-const WorkItem = ((props) => ( 
+const WorkItem = (({ image, title, date, tech, goal, link }) => ( 
   <section className='workItem'>
-    <img src={props.image} alt={props.title} />
+    <img src={image} alt={title} />
     <div className='workItem__content'>
-      <h1 style={{margin: '0'}}>{props.title}</h1>
-      <p style={{color: '#9B9B9B'}}>{props.date}</p>
+      <h1 style={{margin: '0'}}>{title}</h1>
+      <p style={{color: '#9B9B9B'}}>{date}</p>
       <h2 className='workItem__subtitle'>Technology</h2>
-      <p>{props.tech}</p>
+      <p>{tech}</p>
       <h2 className='workItem__subtitle'>Goal</h2>
-      <p>{props.goal}</p>
-      <a className='workItem__link' href={props.link} target='blank'>Check it out</a>
+      <p>{goal}</p>
+      <a className='workItem__link' href={link} target='blank'>Check it out</a>
     </div>
   </section>
 ));
