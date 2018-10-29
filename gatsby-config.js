@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-blog",
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Emma Wedekind',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -24,8 +24,17 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        logo: 'src/images/logo.svg'
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `'Montserrat', sans-serif`,
+        ]
+      }
+    }
   ],
 }
