@@ -11,7 +11,8 @@ const Header = ({ siteTitle }) => (
       padding: '20px',
       display: 'flex',
       justifyContent: 'space-between',
-      overflow: 'hidden'
+      overflow: 'hidden',
+      alignItems: 'center'
     }}
   >
     <Menu />
@@ -22,7 +23,7 @@ const Header = ({ siteTitle }) => (
         textDecoration: 'none',
       }}
     >
-      <img style={{ width: '200px'}} src={logo} alt="Logo" />
+      <img style={{ width: '200px', marginBottom: '0'}} src={logo} alt="Logo" />
     </Link>
   </div>
 )

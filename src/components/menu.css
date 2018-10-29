@@ -61,3 +61,7 @@ li {
   right: 15px;
   top: 15px;
 }
+
+.menu__button--close > img {
+  width: 20px;
+}
