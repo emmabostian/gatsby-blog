@@ -621,3 +621,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #4A4A4A;
+}
