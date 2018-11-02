@@ -20,7 +20,7 @@ li {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   content: '';
   z-index: 0;
 }
@@ -39,12 +39,12 @@ li {
 }
 
 .menu__item {
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 .menu__item--selected {
-  color: #F7C0AB;
-  border-bottom: 2px solid #F7C0AB;
+  color: #f7c0ab;
+  border-bottom: 2px solid #f7c0ab;
 }
 
 .menu__button {
@@ -66,4 +66,9 @@ li {
 
 .menu__button--close > img {
   width: 20px;
+}
+
+.menu > li {
+  margin: 20px 0px;
+  padding: 0px 30px;
 }
