@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gatsby-blog",
+  pathPrefix: '/gatsby-blog',
   siteMetadata: {
     title: 'Emma Wedekind',
   },
@@ -10,8 +10,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
     'gatsby-transformer-remark',
     {
@@ -23,18 +23,16 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        logo: 'src/images/logo.svg'
+        logo: 'src/images/logo.svg',
       },
     },
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `'Montserrat', sans-serif`,
-        ]
-      }
+        fonts: [`'Montserrat', sans-serif`],
+      },
     },
-    `gatsby-plugin-favicon`
+    `gatsby-plugin-favicon`,
   ],
 }
