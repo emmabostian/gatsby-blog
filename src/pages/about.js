@@ -65,7 +65,7 @@ const AboutPage = () => (
     <p>
       In my spare time, I enjoy blogging, reading, and traveling. I’ve read 70
       books thus far in 2018 and traveled to 10 countries this year alone. I’m
-      looing forward to what the future has to offer.
+      looking forward to what the future has to offer.
     </p>
   </Layout>
 )
