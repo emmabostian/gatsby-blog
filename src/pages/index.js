@@ -18,7 +18,7 @@ const IndexPage = () => (
       Upstate New York. After a few years in Austin, Texas I sold everything and
       moved to Karlsruhe, Germany.
     </p>
-    <p>Feel free to send me a message on Twitter!</p>
+    <p>Feel free to send me a message on <a href="https://twitter.com/EmmaWedekind" target="blank">Twitter</a>!</p>
   </Layout>
 )
 
