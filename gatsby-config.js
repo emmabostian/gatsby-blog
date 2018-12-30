@@ -27,12 +27,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`'Montserrat', sans-serif`],
-      },
-    },
     `gatsby-plugin-favicon`,
   ],
 }
