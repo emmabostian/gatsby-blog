@@ -3,7 +3,7 @@ path: '/how-to-combat-bias-in-the-tech-industry'
 date: '2018-10-16'
 title: 'How To Combat Bias In The Tech Industry'
 author: 'Emma Wedekind'
-image: 'https://cdn-images-1.medium.com/max/2000/1*cyq39_Fi_qPwiAJqgeCsCg.jpeg'
+description: 'Bias has been prevalent since the dawn of time, and as humans we fall prey to being biased in many facets of our lives (whether we realize it or not). Yet we are currently enduring an era where bias is permeating the tech industry, and something must be done.'
 ---
 
 ![Two people at computer](https://cdn-images-1.medium.com/max/2000/1*cyq39_Fi_qPwiAJqgeCsCg.jpeg)

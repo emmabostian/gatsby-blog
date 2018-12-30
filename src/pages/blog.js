@@ -4,26 +4,23 @@ import { graphql } from 'gatsby'
 
 import BlogSquare from '../components/blogSquare'
 
-const BlogPage = ({data}) => (
+const BlogPage = ({ data }) => (
   <Layout>
-    <h1 style={{ 
-      textTransform: 'uppercase', 
-      fontWeight: '100',
-      marginTop: '50px',
-      fontSize: '25px',
-      letterSpacing: '4px'
-    }}>
-      Blog
-    </h1>
-    {data.allMarkdownRemark.edges.map(post => (
-      <BlogSquare
-        title={post.node.frontmatter.title}
-        date={post.node.frontmatter.date}
-        path={post.node.frontmatter.path}
-        image={post.node.frontmatter.image}
-        key={post.node.id}
-      />
-    ))}
+    <section
+      style={{
+        marginTop: '100px',
+      }}
+    >
+      {data.allMarkdownRemark.edges.map(post => (
+        <BlogSquare
+          title={post.node.frontmatter.title}
+          date={post.node.frontmatter.date}
+          path={post.node.frontmatter.path}
+          description={post.node.frontmatter.description}
+          key={post.node.id}
+        />
+      ))}
+    </section>
   </Layout>
 )
 
@@ -38,7 +35,7 @@ export const pageQuery = graphql`
             title
             author
             date
-            image
+            description
           }
         }
       }

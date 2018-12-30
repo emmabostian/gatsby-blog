@@ -3,7 +3,7 @@ path: '/six-mistakes-youre-making-as-a-beginner-web-developer'
 date: '2018-09-01'
 title: 'Six Mistakes You Are Making As A Beginner Web Developer'
 author: 'Emma Wedekind'
-image: 'https://cdn-images-1.medium.com/max/2000/1*_BSX61CxShyqW7oT7Kgc8Q.jpeg'
+description: 'Learning web development is intimidating. There are so many resources and tutorials that it can quickly seem overwhelming. It’s often difficult for beginners to web development to learn the best practices and technologies to focus on. So we’re going to examine six common mistakes that beginners make and how they can be avoided.'
 ---
 
 ![Computer](https://cdn-images-1.medium.com/max/2000/1*_BSX61CxShyqW7oT7Kgc8Q.jpeg)
