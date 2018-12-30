@@ -27,7 +27,7 @@ const WorkPage = () => (
       title="Go To Meeting"
       date="2018 - current"
       tech="HTML, CSS, JavaScript, React, Redux, TypeScript."
-      goal="Provide an easy-to-use solution for developers looking for Linux packages on the IBM Power platform."
+      goal="Provide an accessible user interface to enhance the quality of your meetings."
       link="https://www.gotomeeting.com/"
     />
     <hr />
