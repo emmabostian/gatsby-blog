@@ -6,9 +6,41 @@ import BlogSquare from '../components/blogSquare'
 
 const BlogPage = ({ data }) => (
   <Layout>
+    <p
+      style={{
+        background: '#F7C0AB',
+        padding: '15px',
+        fontSize: '.8em',
+        color: 'white',
+        marginTop: '30px',
+      }}
+    >
+      More blog posts can be found on{' '}
+      <a
+        href="https://medium.com/@emmawedekind"
+        target="blank"
+        style={{
+          color: 'white',
+        }}
+      >
+        Medium
+      </a>{' '}
+      and{' '}
+      <a
+        href="https://dev.to/emmawedekind"
+        target="blank"
+        style={{
+          color: 'white',
+        }}
+      >
+        Dev Community
+      </a>
+    </p>
     <section
       style={{
-        marginTop: '100px',
+        marginTop: '50px',
+        display: 'flex',
+        flexDirection: 'column-reverse',
       }}
     >
       {data.allMarkdownRemark.edges.map(post => (
