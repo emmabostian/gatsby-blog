@@ -11,7 +11,7 @@ const AboutPage = () => (
     <img src={womanAtDesk} alt="Woman at desk" />
     <p>
       I never wanted to become a Software Engineer. This can be attributed to
-      the fact that my father is a Software Engineer & Architecht and my mother
+      the fact that my father is a Software Engineer & Architect and my mother
       is a Designer. But I found my passion for engineering during college.
     </p>
     <img style={{ margin: '30px 0px' }} src={date2015} alt="2015" />
