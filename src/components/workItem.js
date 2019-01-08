@@ -1,13 +1,14 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 import './workItem.css'
 
-const WorkItem = (({ image, title, date, tech, goal, link }) => ( 
+const WorkItem = (({ image, title, date, tech, goal, link }) => (
   <section className='workItem'>
-    <img src={image} alt={title} />
+    <Img fluid={image.childImageSharp.fluid} alt={title} />
     <div className='workItem__content'>
-      <h1 style={{margin: '0'}}>{title}</h1>
-      <p style={{color: '#9B9B9B'}}>{date}</p>
+      <h1 style={{ margin: '0' }}>{title}</h1>
+      <p style={{ color: '#9B9B9B' }}>{date}</p>
       <h2 className='workItem__subtitle'>Technology</h2>
       <p>{tech}</p>
       <h2 className='workItem__subtitle'>Goal</h2>
