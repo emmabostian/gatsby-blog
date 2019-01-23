@@ -43,6 +43,15 @@ const Menu = () => {
             blog
           </Link>
         </li>
+        <li>
+          <Link
+            to="/resume-templates"
+            className="menu__item"
+            activeClassName="menu__item--selected"
+          >
+            resume templates
+          </Link>
+        </li>
       </ul>
     </section>
   )

@@ -1,17 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
-
 import WorkItem from '../components/workItem'
-
-import ibmQNetworkImage from '../images/ibm-q-network.png'
-import lopdpImage from '../images/lopdp.png'
-import codingCoachImage from '../images/coding-coach.png'
-import planItImage from '../images/planit.png'
 
 import { StaticQuery, graphql } from 'gatsby'
 
 const WorkPage = () => (
-
   <StaticQuery query={graphql`
       {
         goToMeeting: file(relativePath: {eq: "gotomeeting.png"}) {
@@ -52,16 +45,6 @@ const WorkPage = () => (
       }
     `} render={(data) => (
       <Layout>
-        <h1
-          style={{
-            textTransform: 'uppercase',
-            fontWeight: '100',
-            marginTop: '50px',
-            fontSize: '25px',
-            letterSpacing: '4px',
-          }}
-        >
-        </h1>
         <WorkItem
           image={data.goToMeeting}
           title="Go To Meeting"
