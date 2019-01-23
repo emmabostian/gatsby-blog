@@ -30,7 +30,7 @@ const ResumeTemplatesPage = () => (
             margin: '50px auto'
           }}
         >
-          I love creating fun resume templates in Sketch! If you'd like to use one of my styles, feel free! If you'd like to give me a donation, feel free to support me on <a href="https://www.patreon.com/user?u=16755243" target="blank">Patreon</a>!</p>
+          I love creating fun resume templates in Sketch! If you'd like to use one of my styles, feel free! If you'd like to give me a donation, you can support me on <a href="https://www.patreon.com/user?u=16755243" target="blank">Patreon</a>!</p>
         <ResumeSection image={data.purple} title="Purple resume" link="https://www.dropbox.com/s/5pcpk7vdm3ull96/purple-sketch.sketch?dl=0" />
         <ResumeSection image={data.turquoise} title="Turquoise resume" link="https://www.dropbox.com/s/tcdm7sbpbtlqjs8/turquoise-sketch.sketch?dl=0" />
       </Layout>
