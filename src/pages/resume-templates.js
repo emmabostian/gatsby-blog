@@ -26,10 +26,8 @@ const ResumeTemplatesPage = () => (
       <Layout>
         <p
           style={{
-            position: 'absolute',
-            left: '50px',
-            width: '400px',
-            marginTop: '50px'
+            maxWidth: '400px',
+            margin: '50px auto'
           }}
         >
           I love creating fun resume templates in Sketch! If you'd like to use one of my styles, feel free! If you'd like to give me a donation, feel free to support me on <a href="https://www.patreon.com/user?u=16755243" target="blank">Patreon</a>!</p>
