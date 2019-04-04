@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Layout from '../components/layout'
 
 import womanAtDesk from '../images/woman-at-desk.svg'
@@ -6,9 +6,20 @@ import date2015 from '../images/2015.svg'
 import date2017 from '../images/2017.svg'
 import date2018 from '../images/2018.svg'
 
-const AboutPage = () => (
+
+class AboutPage extends Component {
+  state={imageStatus: false}
+  onLoad() {
+    this.setState({ imageStatus: true });
+  }
+  render(){
+    console.log({imageStatus: this.state.imageStatus})
+    return (
   <Layout>
-    <img src={womanAtDesk} alt="Woman at desk" />
+    <img src={womanAtDesk} alt="Woman at desk" onLoad={ () => this.onLoad()}/>
+    {
+      this.state.imageStatus ?
+    <template>
     <p>
       I never wanted to become a Software Engineer. This can be attributed to
       the fact that my father is a Software Engineer & Architect and my mother
@@ -67,7 +78,11 @@ const AboutPage = () => (
       books thus far in 2018 and traveled to 10 countries this year alone. I’m
       looking forward to what the future has to offer.
     </p>
+    </template>
+    : <span/>
+    }
   </Layout>
-)
+  )}
+}
 
 export default AboutPage
