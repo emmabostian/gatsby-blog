@@ -2,7 +2,7 @@
 path: '/design-systems-design-language'
 date: '2019-07-26'
 title: 'Design Systems: Design Language'
-author: 'Emma Wedekind'
+topic: 'Design systems'
 description: 'In part one we took a look at the foundations of Design Systems. If you haven’t read that yet, I suggest you check it out!
 
 In this post we’ll delve into the foundation of a design system: design language.'

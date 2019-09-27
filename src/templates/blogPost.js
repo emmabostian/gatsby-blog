@@ -5,46 +5,23 @@ import Layout from '../components/layout'
 
 import backArrow from '../images/back-arrow.svg'
 
+import './blogPost.css'
+
 export default function Template({ data }) {
   const post = data.markdownRemark
 
   return (
     <Layout>
-      <Link
-        to="/blog"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          fontSize: '.8em',
-          color: '#4A4A4A',
-          textDecoration: 'none',
-          marginTop: '50px',
-        }}
-      >
-        <img
-          style={{ width: '7px', marginBottom: '0', marginRight: '10px' }}
-          src={backArrow}
-          alt="Go back"
-        />
+      <Link to="/blog" className="blogPost__back">
+        <img className="blogPost__backIcon" src={backArrow} alt="Go back" />
         Back to blogs
       </Link>
-      <h1
-        style={{
-          marginTop: '20px',
-        }}
-      >
-        {post.frontmatter.title}
-      </h1>
-      <h4
-        style={{
-          fontSize: '.8em',
-          color: '#9fa7a7',
-          fontWeight: '400',
-        }}
-      >
-        Posted by {post.frontmatter.author} on {post.frontmatter.date}
-      </h4>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <h1 className="blogPost__title">{post.frontmatter.title}</h1>
+      <p className="blogPost__date">{post.frontmatter.date}</p>
+      <div
+        className="blogPost__content"
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
     </Layout>
   )
 }
@@ -56,7 +33,7 @@ export const postQuery = graphql`
       frontmatter {
         path
         title
-        author
+        topic
         date
       }
     }

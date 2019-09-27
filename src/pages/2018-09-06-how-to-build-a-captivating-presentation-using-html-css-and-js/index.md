@@ -2,7 +2,7 @@
 path: '/how-to-build-a-captivating-presentation-using-html-css-and-js'
 date: '2018-09-06'
 title: 'How To Build A Captivating Presentation Using HTML, CSS, & JavaScript'
-author: 'Emma Wedekind'
+topic: 'Career'
 description: 'Building beautiful presentations is hard. Often you’re stuck with Keynote or PowerPoint, and the templates are extremely limited and generic. Well not anymore.'
 ---
 

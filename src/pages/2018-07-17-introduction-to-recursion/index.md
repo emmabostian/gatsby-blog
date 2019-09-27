@@ -2,7 +2,7 @@
 path: '/introduction-to-recursion'
 date: '2018-07-17'
 title: 'Introduction To Recursion'
-author: 'Emma Wedekind'
+topic: 'Computer science'
 description: 'I vividly remember the day in college where my Introduction to Data Structures professor introduced the concept of recursion. And my brain promptly exploded.'
 ---
 

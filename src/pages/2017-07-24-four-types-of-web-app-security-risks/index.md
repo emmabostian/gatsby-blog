@@ -2,7 +2,7 @@
 path: '/four-types-of-web-app-security-risks'
 date: '2017-07-24'
 title: 'Four Types Of Web App Security Risks'
-author: 'Emma Wedekind'
+topic: 'Web development'
 description: 'In today’s day and age, establishing preventative measures to combat Internet trolls is a must. This post is intended to give you a high-level overview of four security breaches that can happen, and how to prevent them.'
 ---
 

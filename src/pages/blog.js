@@ -4,38 +4,11 @@ import { graphql } from 'gatsby'
 
 import BlogSquare from '../components/blogSquare'
 
+import './pages.css'
+
 const BlogPage = ({ data }) => (
   <Layout>
-    <p
-      style={{
-        background: '#F7C0AB',
-        padding: '15px',
-        fontSize: '.8em',
-        color: 'white',
-        marginTop: '30px',
-      }}
-    >
-      More blog posts can be found on{' '}
-      <a
-        href="https://medium.com/@emmawedekind"
-        target="blank"
-        style={{
-          color: 'white',
-        }}
-      >
-        Medium
-      </a>{' '}
-      and{' '}
-      <a
-        href="https://dev.to/emmawedekind"
-        target="blank"
-        style={{
-          color: 'white',
-        }}
-      >
-        Dev Community
-      </a>
-    </p>
+    <h1 className="page__title">Blog</h1>
     <section
       style={{
         marginTop: '50px',
@@ -50,6 +23,7 @@ const BlogPage = ({ data }) => (
           path={post.node.frontmatter.path}
           description={post.node.frontmatter.description}
           key={post.node.id}
+          topic={post.node.frontmatter.topic}
         />
       ))}
     </section>
@@ -65,7 +39,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             title
-            author
+            topic
             date
             description
           }

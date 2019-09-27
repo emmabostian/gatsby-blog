@@ -1,25 +1,21 @@
 .blogSquare {
-  position: relative;
   display: flex;
   margin-bottom: 50px;
   flex-direction: column;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #efefef;
 }
 
 .blogSquare__title {
-  font-weight: 200;
+  font-family: 'Lora', serif;
+  font-weight: 100;
   margin: 0;
-  font-size: 1.5em;
 }
 
 .blogSquare__date {
-  margin: 5px 0px 15px;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.8em;
-  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.blogSquare__readMore {
-  font-size: 0.8em;
-  display: inline-block;
+.blogSquare__description {
+  margin-top: 16px;
 }

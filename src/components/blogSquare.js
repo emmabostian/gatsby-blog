@@ -1,20 +1,24 @@
 import React from 'react'
 
 import { Link } from 'gatsby'
+import TopicTag from './topicTag'
 
 import './blogSquare.css'
 
-const BlogSquare = ({ title, date, path, description }) => (
+const BlogSquare = ({ title, date, topic, path, description }) => (
   <section className="blogSquare">
-    <Link to={path} style={{
-      textDecoration: 'none'
-    }}>
+    <Link
+      to={path}
+      style={{
+        textDecoration: 'none',
+      }}
+    >
       <h2 className="blogSquare__title">{title}</h2>
       <p className="blogSquare__date">{date}</p>
-      <p>{description}</p>
-      <p style={{ fontSize: '.8em', textDecoration: 'underline' }}>Read more</p>
-    </Link >
-  </section >
+      <TopicTag topic={topic} />
+      <p className="blogSquare__description">{description}</p>
+    </Link>
+  </section>
 )
 
 export default BlogSquare

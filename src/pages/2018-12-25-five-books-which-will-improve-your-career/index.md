@@ -2,7 +2,7 @@
 path: '/five-books-which-will-improve-your-career'
 date: '2018-12-25'
 title: '5 Books Which Will Improve Your Career '
-author: 'Emma Wedekind'
+topic: 'Career'
 description: 'I read. A lot. And I love reading books that will positively impact my career. I am the type of person who is motivated by digesting motivational books and podcasts.'
 ---
 

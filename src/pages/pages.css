@@ -13,3 +13,14 @@
   top: 130%;
   left: 0;
 }
+
+table td,
+table th {
+  font-family: 'Libre Franklin', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.page__content {
+  margin-bottom: 160px;
+}

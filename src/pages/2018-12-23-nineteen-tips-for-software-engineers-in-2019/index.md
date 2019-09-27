@@ -2,7 +2,7 @@
 path: '/nineteen-tips-for-software-engineers-in-2019'
 date: '2018-12-23'
 title: '19 Tips For Software Engineers In 2019'
-author: 'Emma Wedekind'
+topic: 'Career'
 description: 'It is almost 2019 and there are some amazing things coming down the pipeline in the world of programming. But for many new developers the prospect of jumping into a career in coding can be intimidating.'
 ---
 

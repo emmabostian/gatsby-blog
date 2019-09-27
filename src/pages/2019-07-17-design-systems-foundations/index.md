@@ -1,8 +1,8 @@
 ---
 path: '/design-systems-foundations'
 date: '2019-07-17'
-title: 'Design Systems Foundations'
-author: 'Emma Wedekind'
+title: 'Design Systems: Foundations'
+topic: 'Design systems'
 description: 'The web was built as a set of interconnected pages, and blossomed from how content was historically consumed: through books. Since books format content in a series of pages, it was only natural for web pages to leverage the familiar paradigm. Thus, web pages were born.'
 ---
 

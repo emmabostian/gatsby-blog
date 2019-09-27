@@ -2,7 +2,7 @@
 path: '/how-to-write-a-stand-out-techncial-resume'
 date: '2018-10-03'
 title: 'How To Write A Stand-Out Technical Resume'
-author: 'Emma Wedekind'
+topic: 'Career'
 description: 'Writing a resume is hard. Yet even today, most job applications require resumes to be considered for a position. The true goal behind a resume is to market yourself. You are your best advocate.'
 ---
 

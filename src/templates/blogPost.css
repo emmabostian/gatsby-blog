@@ -1,0 +1,38 @@
+.blogPost__back {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.blogPost__backIcon {
+  width: 7px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.blogPost__title {
+  margin-top: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.blogPost__date {
+  font-size: 0.8em;
+  color: #9fa7a7;
+  font-weight: 400;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.blogPost__content,
+.blogPost__content h1,
+.blogPost__content h2,
+.blogPost__content h3 {
+  font-family: 'Lora', serif;
+}
+
+.blogPost__content {
+  margin-bottom: 160px;
+}

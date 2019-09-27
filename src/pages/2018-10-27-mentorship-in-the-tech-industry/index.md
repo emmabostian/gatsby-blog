@@ -2,7 +2,7 @@
 path: '/mentorship-in-the-tech-industry'
 date: '2018-10-27'
 title: 'Mentorship In The Tech Industry'
-author: 'Emma Wedekind'
+topic: 'Mentorship'
 description: 'Mentorship is typically thought of as a one-way street; knowledge flows from the mentor to the mentee. Yet mentorship should encapsulate so much more.'
 ---
 

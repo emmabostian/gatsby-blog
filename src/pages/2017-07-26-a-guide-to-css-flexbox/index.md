@@ -2,7 +2,7 @@
 path: '/a-guide-to-css-flexbox'
 date: '2017-07-28'
 title: 'A Guide To CSS Flexbox'
-author: 'Emma Wedekind'
+topic: 'CSS'
 description: 'Flexbox, or CSS3 Flexible Box, is a super lightweight way to lay out UI components on a web page. Not only is it easy (and fun) to learn, but it makes designing for responsive screen sizes painless.'
 ---
 

@@ -2,7 +2,7 @@
 path: '/five-mistakes-youre-making-in-your-technical-interviews'
 date: '2018-12-25'
 title: '5 Mistakes You Are Making In Your Technical Interview And How To Avoid Them'
-author: 'Emma Wedekind'
+topic: 'Career'
 description: 'Technical interviews are the most nerve-wracking experiences in any engineers career. Often, you are so worried about impressing the interviewers that you forget to relax and be yourself.'
 ---
 
