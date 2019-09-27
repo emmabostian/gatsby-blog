@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Lora`, `Libre Franklin`],
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/images`,
@@ -32,7 +38,6 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        logo: 'src/images/logo.svg',
       },
     },
     'gatsby-plugin-offline',

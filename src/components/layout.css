@@ -1,10 +1,23 @@
+.layout {
+  display: flex;
+}
+
+.layout__content {
+  margin: 160px 80px 0;
+  max-width: 500px;
+}
+
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
+}
+
+p {
+  font-family: 'Lora', serif;
 }
 article,
 aside,
