@@ -5,37 +5,31 @@ import WorkItem from '../components/workItem'
 import { StaticQuery, graphql } from 'gatsby'
 
 const WorkPage = () => (
-  <StaticQuery query={graphql`
+  <StaticQuery
+    query={graphql`
       {
-        goToMeeting: file(relativePath: {eq: "gotomeeting.png"}) {
+        goToMeeting: file(relativePath: { eq: "gotomeeting.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        ibmQNetwork: file(relativePath: {eq: "ibm-q-network.png"}) {
+        ibmQNetwork: file(relativePath: { eq: "ibm-q-network.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        lopdp: file(relativePath: {eq: "lopdp.png"}) {
+        lopdp: file(relativePath: { eq: "lopdp.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        codingCoach: file(relativePath: {eq: "coding-coach.png"}) {
-          childImageSharp {
-            fluid(maxWidth: 1600) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        planIt: file(relativePath: {eq: "planit.png"}) {
+        codingCoach: file(relativePath: { eq: "coding-coach.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
@@ -43,7 +37,8 @@ const WorkPage = () => (
           }
         }
       }
-    `} render={(data) => (
+    `}
+    render={data => (
       <Layout>
         <WorkItem
           image={data.goToMeeting}
@@ -82,7 +77,7 @@ const WorkPage = () => (
           }}
         >
           Design Work
-    </h1>
+        </h1>
         <WorkItem
           image={data.codingCoach}
           title="Coding Coach"
@@ -91,19 +86,9 @@ const WorkPage = () => (
           goal="Create a platform to connect mentors and mentees around the world."
           link="https://codingcoach.io/"
         />
-        <hr />
-        <WorkItem
-          image={data.planIt}
-          title="PlanIt"
-          date="2018"
-          tech="Sketch, HTML, CSS, JavaScript Vue.js, GitHub, ZenHub."
-          goal="Design a system to get banking customers more involved in eco-friendly lifestyles."
-          link="https://emmawedekind.github.io/planIt/"
-        />
       </Layout>
     )}
   />
 )
 
 export default WorkPage
-
