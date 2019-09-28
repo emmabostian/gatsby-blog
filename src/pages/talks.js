@@ -97,16 +97,18 @@ const TalksPage = () => {
             <th>Date</th>
             <th>Topic</th>
           </tr>
-          {conferenceTalks.map(talk => (
-            <tr>
-              <td>{talk.conference}</td>
-              <td>{talk.location}</td>
-              <td>{talk.date}</td>
-              <td>
-                <TopicTag topic={talk.topic} />
-              </td>
-            </tr>
-          ))}
+          <tbody>
+            {conferenceTalks.map(talk => (
+              <tr key={talk.date}>
+                <td>{talk.conference}</td>
+                <td>{talk.location}</td>
+                <td>{talk.date}</td>
+                <td>
+                  <TopicTag topic={talk.topic} />
+                </td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     </Layout>
