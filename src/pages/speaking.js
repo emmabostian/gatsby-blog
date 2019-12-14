@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 import './pages.css'
 
-const PodcastsPage = () => {
+const Speaking = () => {
   const guestPodcasts = [
     {
       podcast: 'The Changelog',
@@ -93,54 +93,10 @@ const PodcastsPage = () => {
 
   return (
     <Layout>
-      <h1 className="page__title">Podcasts</h1>
-      <div className="page__content">
-        <h2>Full-Time Podcasts</h2>
-        <table>
-          <tr>
-            <th>Podcast</th>
-            <th>Episode</th>
-            <th>Date</th>
-          </tr>
-          <tbody>
-            {fullTimePodcasts.map(podcast => (
-              <tr key={podcast.link}>
-                <td>
-                  <a target="blank" href={podcast.link}>
-                    {podcast.podcast}
-                  </a>
-                </td>
-                <td>{podcast.episode}</td>
-                <td>{podcast.date}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-
-        <h2>Guest Podcasts & Live Streams</h2>
-        <table>
-          <tr>
-            <th>Podcast</th>
-            <th>Episode</th>
-            <th>Date</th>
-          </tr>
-          <tbody>
-            {guestPodcasts.map(podcast => (
-              <tr key={podcast.link}>
-                <td>
-                  <a target="blank" href={podcast.link}>
-                    {podcast.podcast}
-                  </a>
-                </td>
-                <td>{podcast.episode}</td>
-                <td>{podcast.date}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <h1 className="page__title">Speaking</h1>
+      <div className="page__content" />
     </Layout>
   )
 }
 
-export default PodcastsPage
+export default Speaking

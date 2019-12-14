@@ -5,13 +5,11 @@
 }
 
 .blogSquare__title {
-  font-family: 'Lora', serif;
   font-weight: 100;
   margin: 0;
 }
 
 .blogSquare__date {
-  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.8em;
   margin-bottom: 0;
 }

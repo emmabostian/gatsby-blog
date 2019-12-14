@@ -3,8 +3,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-import backArrow from '../images/back-arrow.svg'
-
 import './blogPost.css'
 
 export default function Template({ data }) {
@@ -13,7 +11,6 @@ export default function Template({ data }) {
   return (
     <Layout>
       <Link to="/blog" className="blogPost__back">
-        <img className="blogPost__backIcon" src={backArrow} alt="Go back" />
         Back to blogs
       </Link>
       <h1 className="blogPost__title">{post.frontmatter.title}</h1>

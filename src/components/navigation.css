@@ -1,31 +1,23 @@
 .nav {
-  padding-left: 40px;
-  padding-top: 40px;
-  width: 250px;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  padding: 40px;
+  z-index: 15;
 }
 
-.nav__list {
+.nav ul {
   list-style-type: none;
+  display: flex;
   margin: 0;
-  margin-top: 100px;
+  padding: 0;
 }
 
-.nav__link {
+.nav a {
+  font-size: 2em;
+  margin-right: 16px;
+  transition: color 0.1 linear;
+  cursor: pointer;
   text-decoration: none;
-  font-family: 'Lora', serif;
-}
-
-.nav__link--active {
-  text-decoration: underline;
-}
-
-.nav__name {
-  margin: 0;
-  font-family: 'Lora', serif;
-}
-
-.nav__title {
-  text-transform: uppercase;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 0.8em;
 }

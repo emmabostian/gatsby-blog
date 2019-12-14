@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Emma Bostian",
   "dependencies": {
     "gatsby": "^2.0.93",
     "gatsby-cli": "^2.4.4",
@@ -19,7 +19,8 @@
     "gatsby-transformer-sharp": "^2.1.10",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-spring": "^8.0.27"
   },
   "keywords": [
     "gatsby"
@@ -27,6 +28,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "start": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",

@@ -1,36 +1,4 @@
-.page__title {
-  font-family: 'Lora', sans-serif;
-  position: relative;
-  margin-bottom: 60px;
-}
-
-.page__title::after {
-  position: absolute;
-  content: '';
-  background-color: #d8d8d8;
-  width: 80px;
-  height: 5px;
-  top: 130%;
-  left: 0;
-}
-
-table {
-  margin-bottom: 120px;
-}
-
-table td,
-table th {
-  font-family: 'Libre Franklin', sans-serif;
-  text-transform: uppercase;
-  font-size: 0.8em;
-}
-
-.page__content {
-  margin-bottom: 160px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: 'Lora';
+.page__main-text {
+  font-size: 40px;
+  max-width: 750px;
 }

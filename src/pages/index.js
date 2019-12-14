@@ -3,14 +3,13 @@ import Layout from '../components/layout'
 
 import './pages.css'
 
-const IndexPage = () => (
+const Home = () => (
   <Layout>
-    <h1 className="page__title">Welcome</h1>
-    <p className="page__content">
-      Here is some random text. Here is some random text. Here is some random
-      text. Here is some random text.
+    <p className="page__main-text">
+      Emma Bostian is an American software engineer, educator, and speaker
+      living in Karlsruhe, Germany.
     </p>
   </Layout>
 )
 
-export default IndexPage
+export default Home

@@ -1,9 +1,14 @@
 .layout {
   display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 .layout__content {
-  margin: 160px 80px 0;
+  padding: 100px 40px;
+  height: 100vh;
+  background: lightcyan;
+  color: indigo;
 }
 
 html {
@@ -13,11 +18,14 @@ html {
 
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
-p {
-  font-family: 'Lora', serif;
-}
 article,
 aside,
 details,
